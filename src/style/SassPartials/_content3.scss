@@ -1,0 +1,64 @@
+
+/*********************************************the content3(Featured Effects)*********************************************/
+
+#content3{
+    background-color:white; 
+    width:100%; height:auto; 
+    float:left;
+    p{
+        margin-top:15px; 
+    }
+    .horizontal_line1{
+        width:25%; 
+        margin-left:37.5%; margin-right:37.5%;margin-top:45px; 
+    }
+    #features{
+        width:100%;height:auto; 
+        float:left;
+        margin-top:25px; 
+        #feature1{
+            width:16.6666%; height:auto;
+            float:left;
+            margin-left:10.416666%;
+        }
+        #feature2{
+            width:16.6666%; height:auto;
+            float:left;
+            margin-left:4.16666%;
+        }
+        #feature3{
+            width:16.6666%; height:auto;
+            float:left;
+            margin-left:4.16666%;
+        }
+        #feature4{
+            width:16.6666%; height:auto;
+            float:left;
+            margin-left:4.16666%;margin-right:10.416666%;
+        }
+        .feature_images{  
+            /*background-color:#E0C9C9;*/ 
+            width:100%; 
+            img{
+                width:100%;
+            }
+        }
+        .feature_descriptions{ 
+            background-color:white;
+            width:100%;
+            padding-top: 10px;
+        }
+    }
+    .horizontal_line2{
+        width:33.3333%; 
+        float:left;
+        margin-left:33.3333%; margin-right:33.3333%;margin-top:35px;margin-bottom:40px ; 
+    }
+}
+
+
+
+
+
+
+

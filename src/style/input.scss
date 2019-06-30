@@ -1,0 +1,44 @@
+@import "SassPartials/colors";
+@import "SassPartials/mixins";
+@import "SassPartials/fonts";
+@import "SassPartials/general";
+@import "SassPartials/topbar-and-menu";
+@import "SassPartials/preview";
+@import "SassPartials/container";
+@import "SassPartials/transition";
+@import "SassPartials/content1";
+@import "SassPartials/content2";
+@import "SassPartials/content3";
+@import "SassPartials/foot";
+@import "SassPartials/responsive";
+
+
+/*----------------------------------------------------------------------- 
+//this part of the sccs is just a test to learn some features of sass
+
+$numb:12px;
+$numbi:(20%/2)+10%;
+$bg-color: #8dbfcf;
+@function doubleit($a){
+    @return ($a*2);
+}
+
+.common{
+    padding-left:5px; 
+    padding-right:5px;
+}
+
+#tests{
+    width: $numb*2;
+    height: $numbi;
+    margin: doubleit(50px);
+    background-color: darken($bg-color, 15%);
+    color: saturate($color: #000000, $amount: 0);
+    @extend .common; 
+}
+ -----------------------------------------------------------------------*/
+
+
+  
+
+

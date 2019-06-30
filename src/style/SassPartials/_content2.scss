@@ -1,0 +1,52 @@
+
+/********************************************the content2(Selected Designs)*********************************************/
+#content2{
+    background-color:#D6D6D6; 
+    width:100%; 
+    float:left;
+    p{
+        margin-top:15px; 
+    }
+    #content2_left{ 
+        /*background-color:#BCBBA2;border:1px solid;*/ 
+        width:50%; height:auto;
+        float:left;
+        margin-top: 25px; margin-bottom:100px;
+        #videol{
+            width:92.5%; 
+            position: relative; 
+            overflow: hidden;
+            padding-top: 56.25%;
+            margin-left:5%; margin-right:2.5%;
+            iframe{
+                border:none; 
+                width:100%;height:100%;
+                position: absolute; top: 0;left: 0;
+            }
+        }
+    }
+    #content2_rigth{
+        /*background-color: #BCBBA2;border:1px solid;*/ 
+        width:50%;height:auto;
+        margin-top: 25px;margin-bottom:100px;
+        float:left; 
+        #videor{
+            width:92.5%; 
+            position: relative; 
+            overflow: hidden;
+            padding-top: 56.25%;
+            margin-left:2.5%;margin-right:5%;
+            iframe{
+                border:none;
+                width:100%;height:100%; 
+                position: absolute; top: 0;left: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+

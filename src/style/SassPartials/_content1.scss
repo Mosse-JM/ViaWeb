@@ -1,0 +1,149 @@
+
+/**********************************************the content1(projects)**********************************************/
+ 
+
+#content1{
+    background-color:#EFEFEF; 
+    width:100%;
+    float:left;
+    margin-left:auto; margin-right:auto;
+    #left{
+        /*background-color:#9B9B00;*/ 
+        width:50%; float:left; 
+        margin-left:auto; margin-right:auto; 
+        #left_content1{
+            width:83.3333%; height:auto;
+            margin-left:11.3333%; margin-right:5.3333%;
+            padding-top:35px;  
+        }
+        #left_content2{
+            width:83.3333%; height:auto;
+            margin-left:11.3333%; margin-right:5.3333%;
+            padding-top:35px; 
+        }
+    }
+    #right{
+        /*background-color:#AEAE00;*/ 
+        width:50%; 
+        float:left; 
+        margin-left:auto; margin-right:auto;
+        #right_content1{ 
+            width:83.3333%; height:auto;
+            margin-left:5.3333%; margin-right:11.3333%;
+            padding-top:35px;
+        }
+        #right_content2{ 
+            width:83.3333%; height:auto;
+            margin-left:5.3333%; margin-right:11.3333%; 
+            padding-top:35px;
+        }
+    }
+    .cont_ainer {
+        /*border:1px solid; background-color:orange;*/
+        width:100%; 
+        position:relative;
+    }
+    .cont_ainer:hover .content1_images {
+        opacity: 0.3;
+    }
+    .cont_ainer:hover .middle {
+        opacity: 1;
+    }
+    .content1_images {
+        /*border:1px solid;*/ 
+        opacity:1;display:block;
+        max-width:500px;max-height:378px;
+        transition:.5s ease;backface-visibility: hidden;
+    }
+    .content1_images img{ 
+        width:100%;  
+        margin-bottom:-4px; 
+    }
+    .content1_scripts{ 
+        /*border:1px solid;*/ 
+        background-color:white; 
+        max-width:500px;height:100px; 
+    }
+    .the_website{
+        /*border:1px solid;*/
+        text-align: left;font-size:14px; 
+        margin-left: 10px;
+    }
+    .the_category{
+        /*border:1px solid;*/
+        text-align: left;font-size:18px;
+        margin-left: 10px;  margin-top:6px; 
+    }
+    .the_category a{
+        text-decoration: underline;
+    }
+    .the_description{ 
+        /*border:1px solid;*/
+        text-align: left; font-size:16px;
+        margin-left:10px; margin-top:3px; 
+    }
+    .middle {
+        /*border:1px solid;*/ 
+        text-align: center;
+        width:150px; 
+        position:absolute;top: 40%;left: 50%;
+        transition: .5s ease;opacity: 0; 
+        transform:translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .hover_text a{
+        color:#4CAF50;
+        font-size:18px; font-weight:bold;
+    }
+    #jack{
+        width:100%; 
+        float: left;
+    }
+
+    #jack #see_more { 
+        /*background-color:yellow; border:1px solid;*/ 
+        width:12.7%; 
+        float:left;
+        padding:10px; 
+        margin-left:44%; margin-top:35px; margin-bottom: 35px; 
+    }
+    #jack #see_more a:hover {
+        color:#B77C7C;
+        text-decoration:underline;
+    }
+    #jack #hide{
+        /*background-color:#AF9090; border:1px solid;*/
+        width:100%;  
+        float:left; 
+    }
+
+    #left_content3{
+        width:41.6666%; height:auto;
+        float:left; 
+        padding-top:35px; 
+        margin-left:5.53333%;margin-right:auto;
+    }
+    #right_content3{ 
+        width:41.6666%; height:auto;
+        float:left;
+        padding-top:35px;  
+        margin-left:5.3333%;margin-right:auto;
+    }
+    /*.content1_images_hide img{ width:500px; height: 400px; margin-bottom:-5px; }*/
+    #jack #hide #see_less a:hover {
+        color:#B77C7C;
+        text-decoration:underline;
+    }
+    #jack #hide #see_less{
+        /*background-color:yellow; border:1px solid;*/
+        width:12.7%; 
+        float:left;
+        padding:10px; 
+        margin-left:44%;  margin-top:15px; margin-bottom:15px; 
+    }
+    #jack #hide {
+        display:none;
+    }
+    /*#content1 #jack:hover #hide {display:block;}*/
+}
+

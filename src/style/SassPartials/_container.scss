@@ -1,0 +1,26 @@
+    
+/*------------------------------the container which includes [transition(trans_name,trans_about,trans_trans),
+      content1(projects), content2(selected design), content3(featured effects), foot(image,script)]-----------------------------------------------*/           
+
+/*---------the #invisib is used instead of a position top:600 in #container-----------*/ 
+#container{
+    background-color:#FF1117; /*border:1px solid;*/ 
+    width:100%; 
+    position:relative; /*top:600px;*/
+    text-align:center; 
+    margin-left:auto; margin-right:auto;
+    #invisib{
+        opacity:0;
+        width:93.8%;max-height:600px;
+        float:left;
+        margin-left:3.1%;margin-right:3.1% ;
+        padding-top:50px;
+        #my_Img{
+            width:100%; height:auto; 
+            margin-left:auto; margin-right:auto;
+        }
+    }
+}
+
+
+

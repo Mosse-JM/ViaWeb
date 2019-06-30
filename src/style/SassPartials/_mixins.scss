@@ -1,0 +1,19 @@
+
+@mixin menu_a {
+    a { 
+        color: #aaaaaa; 
+        display: block;
+        width: 90%;
+        text-decoration: none; 
+        text-align: center;
+        transition: color 0.3s ease;
+    }    
+    }
+    
+    @mixin menu_a_hover($menu-a-hover-color:black) {
+        a:hover{ 
+            color: $menu-a-hover-color;
+        }
+        
+    }
+    
